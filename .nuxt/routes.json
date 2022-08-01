@@ -1,0 +1,44 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\about.vue",
+    "chunkName": "pages/about"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "photos",
+    "path": "/photos",
+    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\photos\\\\index.vue",
+    "chunkName": "pages/photos/index"
+  },
+  {
+    "name": "shows",
+    "path": "/shows",
+    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\shows.vue",
+    "chunkName": "pages/shows"
+  },
+  {
+    "name": "photos-photo-item",
+    "path": "/photos/photo/:item?",
+    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\photos\\\\photo\\\\_item.vue",
+    "chunkName": "pages/photos/photo/_item"
+  },
+  {
+    "name": "photos-id",
+    "path": "/photos/:id",
+    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\photos\\\\_id.vue",
+    "chunkName": "pages/photos/_id"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

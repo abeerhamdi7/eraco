@@ -1,0 +1,53 @@
+
+body{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  font-size: 30px;
+  direction: rtl;
+  scroll-behavior: smooth !important;
+}
+.container{
+  width: 80% !important;
+  margin: auto !important;
+  background-color: gainsboro;
+  padding-top: 30px;
+
+}
+.container .add{
+  text-align: center;
+  color:#f3b900;
+margin:auto;
+margin-bottom: 50px;
+
+
+}
+ .add h3{
+  display: inline;
+  border-bottom:2px solid #f3b900;
+  color:#f3b900;
+
+
+
+  width:100px !important;
+
+}
+.slick-dots li button,.slick-dots li.slick-active button {
+  background-color: rgb(206, 189, 189) !important;
+
+  border: 2px solid #288d37!important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+    position: relative;
+      top:30px;
+
+  }
+  .slick-dots li.slick-active button {
+
+    background-color:  #288d37 !important;
+
+
+
+    }
+

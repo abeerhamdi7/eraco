@@ -1,0 +1,41 @@
+{
+  "About": {
+    "description": "Auto imported from components/about.vue"
+  },
+  "AddNew": {
+    "description": "Auto imported from components/AddNew.vue"
+  },
+  "ArrowUp": {
+    "description": "Auto imported from components/ArrowUp.vue"
+  },
+  "Cards": {
+    "description": "Auto imported from components/Cards.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Nav": {
+    "description": "Auto imported from components/Nav.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Search": {
+    "description": "Auto imported from components/Search.vue"
+  },
+  "Show": {
+    "description": "Auto imported from components/show.vue"
+  },
+  "Shows": {
+    "description": "Auto imported from components/Shows.vue"
+  },
+  "Slider": {
+    "description": "Auto imported from components/Slider.vue"
+  },
+  "TitleSection": {
+    "description": "Auto imported from components/titleSection.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  }
+}
