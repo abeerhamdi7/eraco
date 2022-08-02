@@ -1,6 +1,6 @@
 <template>
   <div class="container containerFooter">
-    <ul>
+    <ul >
       <li>التطبيقات</li>
       <li><img src="../../images/pngegg.png" alt="parcode" /></li>
     </ul>
@@ -21,12 +21,12 @@
       <li>الاقسام</li>
       <li>الوسائط</li>
     </ul>
-    <ul>
+    <ul class="rightFooter">
       <li><img src="../../images/photo-19.png" alt="logo" /></li>
       <li>
         <p>
           القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الاحرف بشكل
-          lعشوائي اخذتها
+          عشوائي اخذتها
         </p>
       </li>
     </ul>
@@ -36,13 +36,14 @@
 .containerFooter {
   display: flex;
   margin-top: 100px !important;
+  justify-content: space-between;
 
-  padding-top: 30px;
-  align-items: flex-start;
-  justify-content: space-around;
-  padding: 30px 60px 20px 60px;
 
   direction: ltr;
+}
+.rightFooter{
+  width:400px;
+  font-size:18px;
 }
 ul {
   list-style: none;
@@ -52,7 +53,8 @@ ul {
   line-height: 2;
 }
 .containerFooter img {
-  width: 100px;
+  width: 120px;
+  margin:auto;
 }
 /* icons */
 i {

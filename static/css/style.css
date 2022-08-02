@@ -14,6 +14,7 @@ body{
   padding-top: 30px;
 
 }
+
 .container .add{
   text-align: center;
   color:#f3b900;
@@ -32,6 +33,23 @@ margin-bottom: 50px;
   width:100px !important;
 
 }
+.add h3 {
+  display: inline;
+  border-bottom: 2px solid #f3b900;
+  color: #f3b900;
+
+  width: 100px !important;
+  padding-bottom:6px !important;
+
+
+}
+ .leftLeaf{
+ transform: rotate(-105deg);
+  position:relative;
+  top:5px;
+  right:7px;
+}
+
 .slick-dots li button,.slick-dots li.slick-active button {
   background-color: rgb(206, 189, 189) !important;
 

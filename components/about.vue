@@ -1,9 +1,9 @@
 <template>
   <div class="container about">
-    <div class="add">
-      <i class="fa-solid fa-leaf"></i>
+    <div class="add" style="direction:ltr" >
+      <i class="fa-solid fa-leaf leftLeaf"></i>
       <h3>من نحن</h3>
-      <i class="fa-solid fa-leaf"></i>
+      <i class="fa-solid fa-leaf" ></i>
     </div>
     <div class="containerAbout">
       <p>

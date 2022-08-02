@@ -1,7 +1,7 @@
 <template>
   <div class="container contaninershow">
- <div class="add">
- <i class="fa-solid fa-leaf"></i>
+ <div class="add" style="direction:ltr">
+ <i class="fa-solid fa-leaf leftLeaf"></i>
        <h3>العرض</h3>
        <i class="fa-solid fa-leaf"></i>
  </div>
@@ -32,11 +32,13 @@
   height: 250px;
   margin-left: 10px;
   border-radius:15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .containerImages iframe{
    width:380px;
   height: 180px;
    margin-right: 10px;
    border-radius:15px;
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 </style>

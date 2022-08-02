@@ -3,7 +3,7 @@
     <div class="add">
       <i class="fa-solid fa-leaf"></i>
       <h3>العروض</h3>
-      <i class="fa-solid fa-leaf"></i>
+      <i class="fa-solid fa-leaf leftLeaf"></i>
     </div>
 
     <div class="sections">
@@ -14,15 +14,18 @@
         </div>
       </div>
       <div class="sections" v-for="item in 4" key="item.id">
+      <div class="containersection">
         <div class="section">
           <div class="containerimg"><img src="../../images/Image 9.png" /></div>
           <p>المبيدات الحشرية ومنظمات النمو والاسمدة</p>
           <h5>س ر 250$</h5>
 
-          <button>
+
+        </div>
+        <button>
             عرض المنتج<i class="fa-solid fa-cart-shopping icon"></i>
           </button>
-        </div>
+      </div>
       </div>
     </div>
   </div>
@@ -40,13 +43,6 @@
   color: #f3b900;
   margin: auto;
   margin-bottom: 70px;
-}
-.add h3 {
-  display: inline;
-  border-bottom: 2px solid #f3b900;
-  color: #f3b900;
-
-  width: 100px !important;
 }
 
 .sections {
@@ -122,34 +118,35 @@
   margin-top: 20px;
   text-align-last: center;
 }
-.section button {
+.containersection button {
   background-color: #f3b900;
   color: white;
   border: none;
   border-radius: 15px;
-  padding: 5px 18px 15px 18px;
+  padding: 5px 10px 15px 40px;
 
   font-size: 20px;
   position: relative;
-  top: 25px;
+   bottom:30px;
+   right:50px;
 }
 
-.section button i {
-  position: relative;
-  top: 7px;
+.containersection button i {
+  position: absolute;
+  top:15px;
+  left:10px;
+
+
+
 }
 .section h5 {
   color: #8a230d;
 }
 
-.custom-slick-arrow right-circle-outlined {
-  border: 3px solid green !important;
-  height: 30px !important;
-}
+
 .section:hover {
   opacity: 0.2;
+
 }
-.section button:hover {
-  background-color: #f3b900 !important;
-}
+
 </style>
