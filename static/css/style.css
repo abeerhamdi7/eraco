@@ -11,7 +11,7 @@ body{
   width: 80% !important;
   margin: auto !important;
   background-color: gainsboro;
-  padding-top: 30px;
+  padding-top: 120px;
 
 }
 
@@ -68,4 +68,10 @@ margin-bottom: 50px;
 
 
     }
+
+    li{
+      list-style: none !important;
+
+    }
+
 

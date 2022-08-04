@@ -1,37 +1,4 @@
-<!-- <template>
-  <div class="arrow" v-if="!scrollToTop">
-    <i class="fa-solid fa-arrow-up"></i>
-  </div>
 
-</template>
-<script>
-
-
-export default{
- scrollToTop: true
-}
-</script>
-
-
-
-<style scoped>
-.arrow {
-  width: 50px !important;
-  height: 50px;
-  border-radius: 50%;
-  color: #288d37 !important;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  text-align: center;
-  border:3px solid red;
-
-  /* position: fixed;
-  top: 560px;
-  right: 10px; */
-}
-.arrow i {
-  font-size: 25px;
-}
-</style> -->
 <template>
   <div id="app" v-cloak>
   <div class="h-screen bg-blue-200"></div>
@@ -40,7 +7,7 @@ export default{
   <div class="h-screen bg-blue-500"></div>
   <div class="h-screen bg-blue-600"></div>
   <transition name="fade">
-    <div id="pagetop" class="fixed right-0 bottom-0" v-show="scY > 20" @click="toTop">
+    <div id="pagetop" class="fixed right-0 bottom-0" v-show="scY > 1" @click="toTop">
       <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
            stroke="#288d37"
            stroke-width="3" stroke-linecap="square" stroke-linejoin="arcs" >

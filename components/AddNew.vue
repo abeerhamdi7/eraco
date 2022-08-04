@@ -25,6 +25,7 @@
 footer {
   background-color: gainsboro;
   padding-bottom: 100px ;
+  margin-top:100px !important;
 
 
 }

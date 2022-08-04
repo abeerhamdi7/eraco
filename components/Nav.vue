@@ -42,6 +42,7 @@
   z-index: 99;
   background-color: white;
   direction: rtl;
+
 }
 .containerNav a {
   color: black;

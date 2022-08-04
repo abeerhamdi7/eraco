@@ -1,5 +1,6 @@
 <template>
-  <div class="container containerFooter">
+ <footer>
+   <div class="container containerFooter">
     <ul >
       <li>التطبيقات</li>
       <li><img src="../../images/pngegg.png" alt="parcode" /></li>
@@ -31,14 +32,18 @@
       </li>
     </ul>
   </div>
+ </footer>
 </template>
 <style scoped>
+footer{
+  background-color:gainsboro;
+  width:100% !important;
+  margin-top:30px;
+}
 .containerFooter {
   display: flex;
-  margin-top: 100px !important;
+  margin-top: 50px !important;
   justify-content: space-between;
-
-
   direction: ltr;
 }
 .rightFooter{
@@ -54,7 +59,7 @@ ul {
 }
 .containerFooter img {
   width: 120px;
-  margin:auto;
+
 }
 /* icons */
 i {

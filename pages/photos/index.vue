@@ -1,6 +1,8 @@
 <template>
-  <div class="container containerPhotos">
 
+
+   <div class="container containerPhotos">
+    <Search />
    <nuxt-link to="/"><div class="add">
       <i class="fa-solid fa-leaf"></i>
       <h3>العروض</h3>
@@ -40,6 +42,7 @@
 </div>
 
 
+
    <!-- <nuxt-link to="`/${photo.id}`">{{photo.id}}</nuxt-link>  -->
 </template>
 <script>
@@ -58,6 +61,7 @@ created(){
 <style scoped>
 .container{
 padding-top:120px;
+background-color:white;
 }
 
 h1{

@@ -26,6 +26,10 @@
 input[type="text"]{
   outline:none;
   width:600px;
+  font-size:20px !important;
+}
+::placeholder{
+  color:black;
 }
 .search .buttonSearch {
   border-radius: 20px;

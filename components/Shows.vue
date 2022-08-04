@@ -1,5 +1,5 @@
 <template>
-  <div class="container contaninershows">
+  <div class="container">
     <div class="add">
       <i class="fa-solid fa-leaf"></i>
       <h3>العروض</h3>
@@ -31,13 +31,11 @@
   </div>
 </template>
 <style scoped>
-.contaninershows {
-  position: relative;
-  top: 70px;
+.container{
+  background-color:white;
 
-  padding-top: 50px;
-  background-color: white;
 }
+
 .container .add {
   text-align: center;
   color: #f3b900;
@@ -51,6 +49,8 @@
   justify-content: space-between;
   position: relative;
   bottom: 15px;
+
+
 }
 .containertrapezoid {
   height: 80px;

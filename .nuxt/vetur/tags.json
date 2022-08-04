@@ -11,8 +11,17 @@
   "Cards": {
     "description": "Auto imported from components/Cards.vue"
   },
+  "CardsMedia": {
+    "description": "Auto imported from components/CardsMedia.vue"
+  },
   "Footer": {
     "description": "Auto imported from components/Footer.vue"
+  },
+  "LeftMedia": {
+    "description": "Auto imported from components/LeftMedia.vue"
+  },
+  "Media": {
+    "description": "Auto imported from components/media.vue"
   },
   "Nav": {
     "description": "Auto imported from components/Nav.vue"

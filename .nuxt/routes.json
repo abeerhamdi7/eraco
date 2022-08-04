@@ -3,49 +3,48 @@
     "name": "about",
     "path": "/about",
     "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\about.vue",
-    "chunkName": "pages/about",
-    "_name": "_2b5df72c"
+    "chunkName": "pages/about"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_589efb74"
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "media",
+    "path": "/media",
+    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\media.vue",
+    "chunkName": "pages/media"
   },
   {
     "name": "photos",
     "path": "/photos",
     "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\photos\\\\index.vue",
-    "chunkName": "pages/photos/index",
-    "_name": "_619dfb8e"
+    "chunkName": "pages/photos/index"
   },
   {
     "name": "shows",
     "path": "/shows",
     "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\shows.vue",
-    "chunkName": "pages/shows",
-    "_name": "_6c790d1a"
+    "chunkName": "pages/shows"
   },
   {
     "name": "photos-photo-item",
     "path": "/photos/photo/:item?",
     "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\photos\\\\photo\\\\_item.vue",
-    "chunkName": "pages/photos/photo/_item",
-    "_name": "_608026f4"
+    "chunkName": "pages/photos/photo/_item"
   },
   {
     "name": "photos-id",
     "path": "/photos/:id",
     "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\photos\\\\_id.vue",
-    "chunkName": "pages/photos/_id",
-    "_name": "_67f18976"
+    "chunkName": "pages/photos/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_0a08df2f"
+    "chunkName": "pages/index"
   }
 ]
