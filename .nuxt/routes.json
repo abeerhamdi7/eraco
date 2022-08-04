@@ -2,49 +2,50 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\about.vue",
-    "chunkName": "pages/about"
+    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_8378021c"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_b0b90664"
   },
   {
     "name": "media",
     "path": "/media",
-    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\media.vue",
-    "chunkName": "pages/media"
+    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/media.vue",
+    "chunkName": "pages/media",
+    "_name": "_e49b706e"
   },
   {
     "name": "photos",
     "path": "/photos",
-    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\photos\\\\index.vue",
-    "chunkName": "pages/photos/index"
+    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/photos/index.vue",
+    "chunkName": "pages/photos/index",
+    "_name": "_e52d2b22"
   },
   {
     "name": "shows",
     "path": "/shows",
-    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\shows.vue",
-    "chunkName": "pages/shows"
-  },
-  {
-    "name": "photos-photo-item",
-    "path": "/photos/photo/:item?",
-    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\photos\\\\photo\\\\_item.vue",
-    "chunkName": "pages/photos/photo/_item"
+    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/shows.vue",
+    "chunkName": "pages/shows",
+    "_name": "_c493180a"
   },
   {
     "name": "photos-id",
     "path": "/photos/:id",
-    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\photos\\\\_id.vue",
-    "chunkName": "pages/photos/_id"
+    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/photos/_id.vue",
+    "chunkName": "pages/photos/_id",
+    "_name": "_404586d2"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "E:\\\\nuxt\\\\lastpro\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_44084c92"
   }
 ]

@@ -1,23 +1,23 @@
 <template>
   <div class="cards">
     <div class="card">
-      <img src="../../images/Image 27.png">
+      <img src="~/assets/img/Image 27.png">
       <h2 >مشاتل ايرادكو </h2>
     </div>
      <div class="card">
-      <img src="../../images/Image 26.png">
+      <img src="~/assets/img/Image 26.png">
       <h2 >مصنع ايرادكو </h2>
     </div>
     <div class="card">
-      <img src="../../images/Image 25.png">
+      <img src="~/assets/img/Image 25.png">
       <h2 >   ايرادكو البيطرية </h2>
     </div>
     <div class="card">
-      <img src="../../images/Image 24.png">
+      <img src="~/assets/img/Image 24.png">
       <h2 >   ايرادكو الصحة العامة </h2>
     </div>
     <div class="card">
-      <img src="../../images/Image 23.png">
+      <img src="~/assets/img/Image 23.png">
       <h2 >   ايرادكو الزراعية </h2>
     </div>
 

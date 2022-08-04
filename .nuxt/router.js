@@ -4,14 +4,13 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _2b5df72c = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _589efb74 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
-const _8c81657e = () => interopDefault(import('..\\pages\\media.vue' /* webpackChunkName: "pages/media" */))
-const _619dfb8e = () => interopDefault(import('..\\pages\\photos\\index.vue' /* webpackChunkName: "pages/photos/index" */))
-const _6c790d1a = () => interopDefault(import('..\\pages\\shows.vue' /* webpackChunkName: "pages/shows" */))
-const _608026f4 = () => interopDefault(import('..\\pages\\photos\\photo\\_item.vue' /* webpackChunkName: "pages/photos/photo/_item" */))
-const _67f18976 = () => interopDefault(import('..\\pages\\photos\\_id.vue' /* webpackChunkName: "pages/photos/_id" */))
-const _0a08df2f = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _8378021c = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _b0b90664 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
+const _e49b706e = () => interopDefault(import('../pages/media.vue' /* webpackChunkName: "pages/media" */))
+const _e52d2b22 = () => interopDefault(import('../pages/photos/index.vue' /* webpackChunkName: "pages/photos/index" */))
+const _c493180a = () => interopDefault(import('../pages/shows.vue' /* webpackChunkName: "pages/shows" */))
+const _404586d2 = () => interopDefault(import('../pages/photos/_id.vue' /* webpackChunkName: "pages/photos/_id" */))
+const _44084c92 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -26,35 +25,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _2b5df72c,
+    component: _8378021c,
     name: "about"
   }, {
     path: "/login",
-    component: _589efb74,
+    component: _b0b90664,
     name: "login"
   }, {
     path: "/media",
-    component: _8c81657e,
+    component: _e49b706e,
     name: "media"
   }, {
     path: "/photos",
-    component: _619dfb8e,
+    component: _e52d2b22,
     name: "photos"
   }, {
     path: "/shows",
-    component: _6c790d1a,
+    component: _c493180a,
     name: "shows"
   }, {
-    path: "/photos/photo/:item?",
-    component: _608026f4,
-    name: "photos-photo-item"
-  }, {
     path: "/photos/:id",
-    component: _67f18976,
+    component: _404586d2,
     name: "photos-id"
   }, {
     path: "/",
-    component: _0a08df2f,
+    component: _44084c92,
     name: "index"
   }],
 

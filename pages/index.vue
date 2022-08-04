@@ -1,18 +1,13 @@
 <template>
-<div>
-
-   <Slider />
-  <Search />
-  <Cards />
-
-
-<Shows />
- <about />
- <Shows />
- <show />
-  <AddNew />
-
-
+  <div>
+    <Slider />
+    <Search />
+    <Cards />
+    <Shows />
+    <about />
+    <Shows />
+    <show />
+    <AddNew />
   </div>
 </template>
 

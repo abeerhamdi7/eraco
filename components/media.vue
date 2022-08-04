@@ -1,40 +1,33 @@
 <template>
- <div>
-   <div class="containerSliders">
-    <a-carousel autoplay>
-      <div class="slide slide1">
-        <div class="contentLeftSlider1">
-          <img src="../../images/slider1.png" class="img1" />
-          <img src="../../images/slider1.png" class="img2" />
-        </div>
-        <div class="rightSlider1">
-          <div>
-            <h2 style="color: #288d37">نيوفينات ميثيل</h2>
-            <h2>70%</h2>
+  <div>
+    <div class="containerSliders">
+      <a-carousel autoplay>
+        <div class="slide slide1">
+          <div class="contentLeftSlider1">
+            <img src="~/assets/img/slider1.png" class="img1" />
+            <img src="~/assets/img/slider1.png" class="img2" />
           </div>
-          <div><img src="../../images/photo-27.png" /></div>
+          <div class="rightSlider1">
+            <div>
+              <h2 style="color: #288d37">نيوفينات ميثيل</h2>
+              <h2>70%</h2>
+            </div>
+            <div><img src="~/assets/img/photo-27.png" /></div>
+          </div>
         </div>
-      </div>
-
-
-
-    </a-carousel>
-     </div>
-  <div class="container">
-    <Search />
-    <LeftMedia />
-
-
-
+      </a-carousel>
+    </div>
+    <div class="container">
+      <Search />
+      <LeftMedia />
+    </div>
   </div>
- </div>
 </template>
 <style scoped>
-.containerSliders{
+.containerSliders {
   background-color: #bcccc0;
-  width:100% !important;
-  direction:ltr;
-
+  width: 100% !important;
+  direction: ltr;
 }
 .ant-carousel :deep(.slick-arrow .custom-slick-arrow) {
   width: 25px;
@@ -179,7 +172,7 @@
   border-radius: 100%;
   background: red;
 }
-.container{
-  background-color:white !important;
+.container {
+  background-color: white !important;
 }
 </style>

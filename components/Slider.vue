@@ -4,8 +4,8 @@
 
       <div class="slide slide1">
         <div class="contentLeftSlider1">
-          <img src="../../images/slider1.png" class="img1">
-          <img src="../../images/slider1.png" class="img2">
+          <img src="~/assets/img/slider1.png" class="img1">
+          <img src="~/assets/img/slider1.png" class="img2">
         </div>
         <div class="rightSlider1">
           <div>
@@ -13,13 +13,13 @@
             <h2>70%</h2>
 
           </div>
-          <div><img src="../../images/photo-27.png"/></div>
+          <div><img src="~/assets/img/photo-27.png"/></div>
 
       </div>
       </div>
       <!-- <div class="slide">
         <div class="contentLeftSlider1">
-          <img src="../../images/Image 33.png" class="img1">
+          <img src="~/assets/img/Image 33.png" class="img1">
 
         </div>
         <div class="rightSlider1">
@@ -34,7 +34,7 @@
       </div> -->
       <div class="slide slide2">
         <div class="contentLeftSlider1">
-          <img src="../../images/Image 17.png">
+          <img src="~/assets/img/Image 17.png">
 
         </div>
         <div class="rightSlider1">
@@ -43,13 +43,13 @@
             <h2>70%</h2>
 
           </div>
-          <div><img src="../../images/photo-27.png"/></div>
+          <div><img src="~/assets/img/photo-27.png"/></div>
 
       </div>
       </div>
       <div class="slide slide3">
         <div class="contentLeftSlider1">
-          <img src="../../images/Image -9.png">
+          <img src="~/assets/img/Image -9.png">
         </div>
         <div class="rightSlider1">
           <div>
@@ -57,7 +57,7 @@
             <h2>70%</h2>
 
           </div>
-          <div><img src="../../images/photo-27.png"/></div>
+          <div><img src="~/assets/img/photo-27.png"/></div>
 
       </div>
       </div>

@@ -1,44 +1,44 @@
 <template>
- <footer>
-   <div class="container containerFooter">
-    <ul >
-      <li>التطبيقات</li>
-      <li><img src="../../images/pngegg.png" alt="parcode" /></li>
-    </ul>
-    <ul>
-      <li>0045854496865</li>
-      <li>0045854496865</li>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <li></li>
-    </ul>
-    <ul>
-      <li>من نحن</li>
-      <li>عروض</li>
-    </ul>
-    <ul>
-      <li>الرئيسية</li>
-      <li>الاقسام</li>
-      <li>الوسائط</li>
-    </ul>
-    <ul class="rightFooter">
-      <li><img src="../../images/photo-19.png" alt="logo" /></li>
-      <li>
-        <p>
-          القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الاحرف بشكل
-          عشوائي اخذتها
-        </p>
-      </li>
-    </ul>
-  </div>
- </footer>
+  <footer>
+    <div class="container containerFooter">
+      <ul>
+        <li>التطبيقات</li>
+        <li><img src="~/assets/img/pngegg.png" alt="parcode" /></li>
+      </ul>
+      <ul>
+        <li>0045854496865</li>
+        <li>0045854496865</li>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <li></li>
+      </ul>
+      <ul>
+        <li>من نحن</li>
+        <li>عروض</li>
+      </ul>
+      <ul>
+        <li>الرئيسية</li>
+        <li>الاقسام</li>
+        <li>الوسائط</li>
+      </ul>
+      <ul class="rightFooter">
+        <li><img src="~/assets/img/photo-19.png" alt="logo" /></li>
+        <li>
+          <p>
+            القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الاحرف بشكل
+            عشوائي اخذتها
+          </p>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </template>
 <style scoped>
-footer{
-  background-color:gainsboro;
-  width:100% !important;
-  margin-top:30px;
+footer {
+  background-color: gainsboro;
+  width: 100% !important;
+  margin-top: 30px;
 }
 .containerFooter {
   display: flex;
@@ -46,9 +46,9 @@ footer{
   justify-content: space-between;
   direction: ltr;
 }
-.rightFooter{
-  width:400px;
-  font-size:18px;
+.rightFooter {
+  width: 400px;
+  font-size: 18px;
 }
 ul {
   list-style: none;
@@ -59,7 +59,6 @@ ul {
 }
 .containerFooter img {
   width: 120px;
-
 }
 /* icons */
 i {

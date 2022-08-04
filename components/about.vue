@@ -1,9 +1,9 @@
 <template>
   <div class="container about">
-    <div class="add" style="direction:ltr" >
+    <div class="add" style="direction: ltr">
       <i class="fa-solid fa-leaf leftLeaf"></i>
       <h3>من نحن</h3>
-      <i class="fa-solid fa-leaf" ></i>
+      <i class="fa-solid fa-leaf"></i>
     </div>
     <div class="containerAbout">
       <p>
@@ -12,7 +12,7 @@
         قرون من الزمن لمتقضي علي هذا النص ,بل انه حتي صار مستخدما وبشكله الاصلي
         في الطباعة والتنفيذ الالكتروني .انتشر بشكل كبير في شتينات هذا القرن .
       </p>
-      <img src="../../images/photo-3.png" />
+      <img src="~/assets/img/photo-3.png" />
     </div>
   </div>
 </template>

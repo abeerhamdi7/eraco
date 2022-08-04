@@ -9,7 +9,7 @@
     </div>
 
     <div class="logo">
-      <img src="../../images/photo-4.png" />
+      <img src="~/assets/img/photo-4.png" />
     </div>
 
     <div class="leftNav">
@@ -29,7 +29,7 @@
 /* style navbar */
 .containerNav {
   display: flex;
-  width: 80%;
+  width: 100vw;
   justify-content: space-between;
   align-items: center;
 
@@ -38,11 +38,10 @@
   box-shadow: 0 10px 5px -5px rgb(209, 204, 204);
 
   position: absolute;
-  left: 10%;
-  z-index: 99;
+  /* left: 10%; */
+  z-index: 9999;
   background-color: white;
-  direction: rtl;
-
+  /* direction: rtl; */
 }
 .containerNav a {
   color: black;

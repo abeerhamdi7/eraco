@@ -14,26 +14,25 @@
         </div>
       </div>
       <div class="sections" v-for="item in 4" key="item.id">
-      <div class="containersection">
-        <div class="section">
-          <div class="containerimg"><img src="../../images/Image 9.png" /></div>
-          <p>المبيدات الحشرية ومنظمات النمو والاسمدة</p>
-          <h5>س ر 250$</h5>
-
-
-        </div>
-        <button>
+        <div class="containersection">
+          <div class="section">
+            <div class="containerimg">
+              <img src="~/assets/img/Image 9.png" />
+            </div>
+            <p>المبيدات الحشرية ومنظمات النمو والاسمدة</p>
+            <h5>س ر 250$</h5>
+          </div>
+          <button>
             عرض المنتج<i class="fa-solid fa-cart-shopping icon"></i>
           </button>
-      </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 <style scoped>
-.container{
-  background-color:white;
-
+.container {
+  background-color: white;
 }
 
 .container .add {
@@ -49,8 +48,6 @@
   justify-content: space-between;
   position: relative;
   bottom: 15px;
-
-
 }
 .containertrapezoid {
   height: 80px;
@@ -100,7 +97,7 @@
   align-items: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   direction: rtl;
-  border-radius:15px;
+  border-radius: 15px;
 }
 .section img {
   height: 220px;
@@ -116,7 +113,8 @@
   text-align: right;
   font-size: 18px;
   margin-top: 20px;
-  text-align-last: center;
+  text-align: center;
+  padding: 0 10px;
 }
 .containersection button {
   background-color: #f3b900;
@@ -127,26 +125,20 @@
 
   font-size: 20px;
   position: relative;
-   bottom:30px;
-   right:50px;
+  bottom: 30px;
+  right: 50px;
 }
 
 .containersection button i {
   position: absolute;
-  top:15px;
-  left:10px;
-
-
-
+  top: 15px;
+  left: 10px;
 }
 .section h5 {
   color: #8a230d;
 }
 
-
 .section:hover {
   opacity: 0.2;
-
 }
-
 </style>
