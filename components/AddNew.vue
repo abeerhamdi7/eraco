@@ -23,7 +23,7 @@
 </template>
 <style scoped>
 footer {
-  background-color: gainsboro;
+  background-color: #dce6de;
   padding-bottom: 100px;
   margin-top: 100px !important;
 }

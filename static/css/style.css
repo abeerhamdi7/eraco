@@ -10,11 +10,10 @@ body{
 .container{
   width: 80% !important;
   margin: auto !important;
-  background-color: gainsboro;
+  background-color: #dce6de;
   padding-top: 120px;
 
 }
-
 .container .add{
   text-align: center;
   color:#f3b900;
@@ -68,6 +67,7 @@ margin-bottom: 50px;
 
 
     }
+
 
     li{
       list-style: none !important;

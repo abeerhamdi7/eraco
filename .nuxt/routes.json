@@ -2,50 +2,64 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/about.vue",
+    "component": "E:\\\\nuxt\\\\eraco\\\\pages\\\\about.vue",
     "chunkName": "pages/about",
-    "_name": "_8378021c"
+    "_name": "_67849113"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/login.vue",
+    "component": "E:\\\\nuxt\\\\eraco\\\\pages\\\\login.vue",
     "chunkName": "pages/login",
-    "_name": "_b0b90664"
+    "_name": "_50e40eef"
   },
   {
     "name": "media",
     "path": "/media",
-    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/media.vue",
+    "component": "E:\\\\nuxt\\\\eraco\\\\pages\\\\media.vue",
     "chunkName": "pages/media",
-    "_name": "_e49b706e"
+    "_name": "_36f2d9ea"
   },
   {
     "name": "photos",
     "path": "/photos",
-    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/photos/index.vue",
+    "component": "E:\\\\nuxt\\\\eraco\\\\pages\\\\photos\\\\index.vue",
     "chunkName": "pages/photos/index",
-    "_name": "_e52d2b22"
+    "_name": "_49b2cf37"
+  },
+  {
+    "name": "products",
+    "path": "/products",
+    "component": "E:\\\\nuxt\\\\eraco\\\\pages\\\\products\\\\index.vue",
+    "chunkName": "pages/products/index",
+    "_name": "_52ab06f4"
   },
   {
     "name": "shows",
     "path": "/shows",
-    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/shows.vue",
+    "component": "E:\\\\nuxt\\\\eraco\\\\pages\\\\shows.vue",
     "chunkName": "pages/shows",
-    "_name": "_c493180a"
+    "_name": "_46f7061c"
   },
   {
     "name": "photos-id",
     "path": "/photos/:id",
-    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/photos/_id.vue",
+    "component": "E:\\\\nuxt\\\\eraco\\\\pages\\\\photos\\\\_id.vue",
     "chunkName": "pages/photos/_id",
-    "_name": "_404586d2"
+    "_name": "_716d9942"
+  },
+  {
+    "name": "products-item",
+    "path": "/products/:item",
+    "component": "E:\\\\nuxt\\\\eraco\\\\pages\\\\products\\\\_item.vue",
+    "chunkName": "pages/products/_item",
+    "_name": "_633cfbd8"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/murabba/1-front end/1-nuxt/Mentoring/abeer/eraco/pages/index.vue",
+    "component": "E:\\\\nuxt\\\\eraco\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_44084c92"
+    "_name": "_f1872850"
   }
 ]

@@ -36,7 +36,7 @@
 </template>
 <style scoped>
 footer {
-  background-color: gainsboro;
+  background-color: #dce6de;
   width: 100% !important;
   margin-top: 30px;
 }

@@ -1,4 +1,7 @@
 {
+  "About": {
+    "description": "Auto imported from components/about.vue"
+  },
   "AddNew": {
     "description": "Auto imported from components/AddNew.vue"
   },
@@ -17,6 +20,9 @@
   "LeftMedia": {
     "description": "Auto imported from components/LeftMedia.vue"
   },
+  "Media": {
+    "description": "Auto imported from components/media.vue"
+  },
   "Nav": {
     "description": "Auto imported from components/Nav.vue"
   },
@@ -26,25 +32,22 @@
   "Search": {
     "description": "Auto imported from components/Search.vue"
   },
+  "Show": {
+    "description": "Auto imported from components/show.vue"
+  },
   "Shows": {
     "description": "Auto imported from components/Shows.vue"
   },
   "Slider": {
     "description": "Auto imported from components/Slider.vue"
   },
-  "Tutorial": {
-    "description": "Auto imported from components/Tutorial.vue"
-  },
-  "About": {
-    "description": "Auto imported from components/about.vue"
-  },
-  "Media": {
-    "description": "Auto imported from components/media.vue"
-  },
-  "Show": {
-    "description": "Auto imported from components/show.vue"
+  "Sliders": {
+    "description": "Auto imported from components/sliders.vue"
   },
   "TitleSection": {
     "description": "Auto imported from components/titleSection.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
   }
 }

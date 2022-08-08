@@ -4,8 +4,8 @@
 
       <div class="slide slide1">
         <div class="contentLeftSlider1">
-          <img src="~/assets/img/slider1.png" class="img1">
-          <img src="~/assets/img/slider1.png" class="img2">
+          <img src="../../images/slider1.png" class="img1">
+          <img src="../../images/slider1.png" class="img2">
         </div>
         <div class="rightSlider1">
           <div>
@@ -13,28 +13,24 @@
             <h2>70%</h2>
 
           </div>
-          <div><img src="~/assets/img/photo-27.png"/></div>
+          <div><img src="../../images/photo-27.png"/></div>
 
       </div>
       </div>
       <!-- <div class="slide">
         <div class="contentLeftSlider1">
-          <img src="~/assets/img/Image 33.png" class="img1">
-
+          <img src="../../images/Image 33.png" class="img1">
         </div>
         <div class="rightSlider1">
           <div>
              <h2 style="color:#288d37">نيوفينات ميثيل</h2>
             <h2>70%</h2>
-
           </div>
-
-
       </div>
       </div> -->
       <div class="slide slide2">
         <div class="contentLeftSlider1">
-          <img src="~/assets/img/Image 17.png">
+          <img src="../../images/Image 17.png">
 
         </div>
         <div class="rightSlider1">
@@ -43,13 +39,13 @@
             <h2>70%</h2>
 
           </div>
-          <div><img src="~/assets/img/photo-27.png"/></div>
+          <div><img src="../../images/photo-27.png"/></div>
 
       </div>
       </div>
       <div class="slide slide3">
         <div class="contentLeftSlider1">
-          <img src="~/assets/img/Image -9.png">
+          <img src="../../images/Image -9.png">
         </div>
         <div class="rightSlider1">
           <div>
@@ -57,7 +53,7 @@
             <h2>70%</h2>
 
           </div>
-          <div><img src="~/assets/img/photo-27.png"/></div>
+          <div><img src="../../images/photo-27.png"/></div>
 
       </div>
       </div>
@@ -77,15 +73,12 @@
   </div>
 
 </template>
-</template>
+
 
 
 <style scoped>
 /* For demo */
 
-.container{
-   direction: ltr !important;
-}
 .ant-carousel :deep(.slick-arrow.custom-slick-arrow) {
   width: 25px;
   height: 25px;
@@ -94,7 +87,6 @@
   background-color: rgba(31, 45, 61, 0.11);
   opacity: 0.3;
   z-index: 1;
-
 }
 .ant-carousel :deep(.custom-slick-arrow:before) {
   display: none;
@@ -102,34 +94,19 @@
 .ant-carousel :deep(.custom-slick-arrow:hover) {
   opacity: 0.5;
 }
-
 .ant-carousel :deep(.slick-slide h3) {
   color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
 .container{
-width:80% !important;
+width:100% !important;
   margin:auto !important;
+   direction: ltr !important;
+     background-color: #dce6de !important;
 }
-.container{
-width:80% !important;
-  margin:auto !important;
-}
-
-
 .ant-carousel  {
   background-color: #dce6de !important;
   height: 400px !important;
-
 }
 .slide{
   margin:auto;
@@ -138,15 +115,11 @@ width:80% !important;
   justify-content: space-between;
   width: 100% !important;
   height: 400px;
-
 }
-
 .contentLeftSlider1{
   display: flex;
   align-items: center;
   margin-left: 100px;
-
-
 }
 .contentLeftSlider1 .img1{
   width:180px;
@@ -158,27 +131,19 @@ width:80% !important;
   height:250px ;
   position: relative;
    top:10px ;
-
   right:40px;
-
-
 }
 .rightSlider1{
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .rightSlider1 h2{
   font-weight: 900;
   font-size: 40px;
   line-height: 1.5;
   text-align: center;
 }
-
-
-
 .slide2 img,.slide3 img{
 height: 280px;
 width:300px;
@@ -196,10 +161,6 @@ border-radius: 50% !important;
     border-radius: 100%;
     background: red;
   }
-
-
-
-
 /* style cards */
 .cards{
   display: flex;
@@ -221,7 +182,6 @@ border-radius: 50% !important;
 .cards h2{
 text-align: center !important;
 }
-
   .card:hover img{
     width:118%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);

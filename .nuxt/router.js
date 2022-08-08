@@ -4,13 +4,15 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _8378021c = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
-const _b0b90664 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
-const _e49b706e = () => interopDefault(import('../pages/media.vue' /* webpackChunkName: "pages/media" */))
-const _e52d2b22 = () => interopDefault(import('../pages/photos/index.vue' /* webpackChunkName: "pages/photos/index" */))
-const _c493180a = () => interopDefault(import('../pages/shows.vue' /* webpackChunkName: "pages/shows" */))
-const _404586d2 = () => interopDefault(import('../pages/photos/_id.vue' /* webpackChunkName: "pages/photos/_id" */))
-const _44084c92 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _67849113 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
+const _50e40eef = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _36f2d9ea = () => interopDefault(import('..\\pages\\media.vue' /* webpackChunkName: "pages/media" */))
+const _49b2cf37 = () => interopDefault(import('..\\pages\\photos\\index.vue' /* webpackChunkName: "pages/photos/index" */))
+const _52ab06f4 = () => interopDefault(import('..\\pages\\products\\index.vue' /* webpackChunkName: "pages/products/index" */))
+const _46f7061c = () => interopDefault(import('..\\pages\\shows.vue' /* webpackChunkName: "pages/shows" */))
+const _716d9942 = () => interopDefault(import('..\\pages\\photos\\_id.vue' /* webpackChunkName: "pages/photos/_id" */))
+const _633cfbd8 = () => interopDefault(import('..\\pages\\products\\_item.vue' /* webpackChunkName: "pages/products/_item" */))
+const _f1872850 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -25,31 +27,39 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _8378021c,
+    component: _67849113,
     name: "about"
   }, {
     path: "/login",
-    component: _b0b90664,
+    component: _50e40eef,
     name: "login"
   }, {
     path: "/media",
-    component: _e49b706e,
+    component: _36f2d9ea,
     name: "media"
   }, {
     path: "/photos",
-    component: _e52d2b22,
+    component: _49b2cf37,
     name: "photos"
   }, {
+    path: "/products",
+    component: _52ab06f4,
+    name: "products"
+  }, {
     path: "/shows",
-    component: _c493180a,
+    component: _46f7061c,
     name: "shows"
   }, {
     path: "/photos/:id",
-    component: _404586d2,
+    component: _716d9942,
     name: "photos-id"
   }, {
+    path: "/products/:item",
+    component: _633cfbd8,
+    name: "products-item"
+  }, {
     path: "/",
-    component: _44084c92,
+    component: _f1872850,
     name: "index"
   }],
 

@@ -1,7 +1,7 @@
 <template>
-  <div v-if="photo" class="container">
+  <div  class="container">
     <Search />
-    {{ this.photo }}
+    {{ this.photo}}
     <ul lang="ar" style="direction: rtl">
       <li>ايرادكو الزراعية <i class="fa-solid fa-angle-left"></i></li>
       <li>القسم الفرعي<i class="fa-solid fa-angle-left"></i></li>
@@ -75,11 +75,12 @@ export default {
   },
   computed: {
     photo() {
-      return this.$store.state.photo.photos[this.$route.params.id - 1]
+      // return this.$store.state.photo.photos[this.$route.params.id - 1]
+      return this.$store.state.photo.photo2
     },
   },
   created() {
-    this.$store.dispatch('photo/getPhotos', this.id)
+    this.$store.dispatch('photo/getPhoto2', this.id)
   },
 }
 </script>

@@ -1,54 +1,88 @@
+
 <template>
-  <form class="container ">
-  <div class="containerLogin">
-    <div class="input">
-      <label>user Name :</label>
-     <input type="text" placeholder="please enter name">
-    </div>
-  <div class="input">
-    <label>password :</label>
-     <input type="password" placeholder="please enter password">
-  </div>
-  <button>login</button>
-  </div>
-  </form>
+ <div class="container">
+   <a-form layout="inline" :form="form" @submit="handleSubmit">
+    <a-form-item :validate-status="userNameError() ? 'error' : ''" :help="userNameError() || ''">
+      <a-input
+        v-decorator="[
+          'userName',
+          { rules: [{ required: true, message: 'Please input your username!' }] },
+        ]"
+        placeholder="Username"
+      >
+        <a-icon slot="prefix" type="user" style="color:rgba(0,0,0,.25)" />
+      </a-input>
+    </a-form-item>
+    <a-form-item :validate-status="passwordError() ? 'error' : ''" :help="passwordError() || ''">
+      <a-input
+        v-decorator="[
+          'password',
+          { rules: [{ required: true, message: 'Please input your Password!' }] },
+        ]"
+        type="password"
+        placeholder="Password"
+      >
+        <a-icon slot="prefix" type="lock" style="color:rgba(0,0,0,.25)" />
+      </a-input>
+    </a-form-item>
+    <a-form-item>
+      <a-button type="primary" html-type="submit" :disabled="hasErrors(form.getFieldsError())">
+        Log in
+      </a-button>
+    </a-form-item>
+  </a-form>
+ </div>
 
-  </template>
 </template>
+
+<script>
+function hasErrors(fieldsError) {
+  return Object.keys(fieldsError).some(field => fieldsError[field]);
+}
+export default {
+  data() {
+    return {
+      hasErrors,
+      form: this.$form.createForm(this, { name: 'horizontal_login' }),
+    };
+  },
+  mounted() {
+    this.$nextTick(() => {
+      // To disabled submit button at the beginning.
+      this.form.validateFields();
+    });
+  },
+  methods: {
+    // Only show error after a field is touched.
+    userNameError() {
+      const { getFieldError, isFieldTouched } = this.form;
+      return isFieldTouched('userName') && getFieldError('userName');
+    },
+    // Only show error after a field is touched.
+    passwordError() {
+      const { getFieldError, isFieldTouched } = this.form;
+      return isFieldTouched('password') && getFieldError('password');
+    },
+    handleSubmit(e) {
+      e.preventDefault();
+      this.form.validateFields((err, values) => {
+        if (!err) {
+          console.log('Received values of form: ', values);
+        }
+      });
+    },
+  },
+};
+</script>
 <style scoped>
-.container{
-  background: white;
-}
-.containerLogin{
-  margin:auto;
-margin-top:200px !important;
-margin-bottom:100px;
+  .container{
+    padding:200px 100px 150px 100px!important;
+   direction:ltr;
 
-  width:550px !important;
-  direction: ltr;
-  color:black;
+   width:500px !important;
+   display:flex !important;
+   flex-direction:column !important;
+  }
 
-}
-label{
-  font-weight:bold;
-}
-.input{
-  display: flex;
-
-  justify-content: space-between;
-  margin-bottom: 20px;
-
-}
-input[type=text],input[type=password],button{
-  border-radius:10px;
-  font-size: 18px;
-  width:350px;
-  border:1px solid grey;
-
-}
-button{
-width:100px;
-margin-left:230px !important;
-}
 
 </style>

@@ -13,7 +13,7 @@
           <h4>جديد</h4>
         </div>
       </div>
-      <div class="sections" v-for="item in 4" key="item.id">
+      <div class="sections" v-for="item in 4" :key="item.id">
         <div class="containersection">
           <div class="section">
             <div class="containerimg">

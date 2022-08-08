@@ -1,5 +1,5 @@
 <template>
-  <div class="containerSliders">
+
     <a-carousel autoplay>
       <div class="slide slide1">
         <div class="contentLeftSlider1">
@@ -40,12 +40,10 @@
         </div>
       </div>
     </a-carousel>
-  </div>
+
 </template>
 <style scoped>
-.containerSliders {
-  background-color: gainsboro;
-}
+
 .ant-carousel :deep(.slick-arrow .custom-slick-arrow) {
   width: 25px;
   height: 25px;
@@ -54,6 +52,7 @@
   background-color: rgba(31, 45, 61, 0.11);
   opacity: 0.3;
   z-index: 1;
+
 }
 .ant-carousel :deep(.custom-slick-arrow:before) {
   display: none;
@@ -66,8 +65,12 @@
   color: #fff;
 }
 .ant-carousel {
-  background-color: #dce6de !important;
+
   height: 400px !important;
+  background-color: rgb(136, 161, 25);
+      width: 100% !important;
+
+
 }
 .slide {
   margin: auto;

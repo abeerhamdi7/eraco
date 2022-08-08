@@ -29,7 +29,7 @@
 /* style navbar */
 .containerNav {
   display: flex;
-  width: 100vw;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 
@@ -81,5 +81,14 @@
 .nuxt-link-exact-active {
   color: #288d37 !important;
   font-weight: bold;
+}
+
+
+
+/* media query */
+@media only screen and (max-width: 600px){
+ .containerNav a{
+   display:none;
+ }
 }
 </style>
