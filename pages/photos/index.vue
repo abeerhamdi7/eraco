@@ -21,7 +21,9 @@
           <h4>جديد</h4>
         </div>
       </div>
-    <div  class="containercard" v-for="photo in photos.slice(0,20)" :key="photo.id">
+    <div  class="containercard"
+
+    
     <div class="card" >
       <img :src="photo.url" alt="card">
        <!-- <button><nuxt-link  to="/photo">shows</nuxt-link></button> -->
